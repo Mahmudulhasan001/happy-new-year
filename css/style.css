@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -16,7 +17,7 @@
     position: absolute;
 
     right: 845px;
-    top: 216px;
+    top: 200px;
     padding-left: 20px;
 
 }
@@ -24,7 +25,7 @@
 .banner-title {
     margin-bottom: 10px;
     font-weight: 700;
-    font-size: 65px;
+    font-size: 50px;
     text-align: left;
     color: #FFFFFF;
 }
@@ -45,4 +46,79 @@ font-weight: 600;
 font-size: 20px;
 text-align: center;
 color: #005FAC;
+}
+/* section-1 start */
+.section-1{
+    width: 100%;
+    padding: 100px 0px;
+
+}
+.section-1 img{
+    width: 569px;
+height: 700px;
+}
+.section-1-text{
+    width: 550px;
+    
+}
+.main{
+    display: flex;
+    gap: 87px;
+    align-items: center;
+    margin-right: 200px;
+    margin-left: 206px;
+}
+.section-1-title{
+    margin-bottom: 10px;
+    font-weight: 700;
+font-size: 40px;
+}
+.section-1-dis{
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #444343;
+}
+.catagory{
+    color: #444343;
+}
+/* My plan start */
+.my-plan-title{
+    font-weight: 700;
+font-size: 40px;
+text-align: center;
+color: #151414;
+
+
+}
+
+.plan-container{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    
+    
+}
+.plan-title{
+    font-weight: 700;
+font-size: 30px;
+color: #151414;
+}
+.plan-dis{
+    font-weight: 500;
+font-size: 25px;
+color: #737272;
+}
+/* extra part */
+.extra{
+    margin: 100px auto;
+    width: 80%;
+    background-image:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(/images/watch.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: left;
+    padding: 100px 50px;
 }
